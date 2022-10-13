@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;600&display=swap");
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 15px;
+  height: 10vh;
+  background: #FFCC26;
+}
+
+/*# sourceMappingURL=styles.css.map */
