@@ -1,8 +1,6 @@
 .products {
-  display: flex;
   width: 63%;
   height: 100%;
-  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=styles.css.map */

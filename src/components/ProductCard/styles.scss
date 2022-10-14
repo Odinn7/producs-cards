@@ -22,19 +22,11 @@
     flex-direction: column;
     margin-top: 15px;
 
-    &-name {
-
-    }
-
     &__priceAndButton {
       display: flex;
       align-items: center;
       justify-content: space-between;
       margin-top: 15px;
-
-      &-price {
-
-      }
 
       &-button {
         cursor: pointer;
@@ -46,9 +38,7 @@
         &:hover {
           background: darken(#FFCC26, 10);
         }
-
       }
-
     }
   }
 }

@@ -1,20 +1,16 @@
 import React from 'react';
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
+import { Link } from "react-router-dom";
 
 import './styles.css'
 
+
 export const Header = () => {
-    return (
-        <Box component='header' className='header'>
-            <Typography
-                variant="h6"
-                sx={ {
-                    fontFamily: "Anek Telugu, serif",
-                    fontWeight: 600,
-                    fontSize: '1.8rem'
-                } }>
-                PRODUCT LIST PAGE
-            </Typography>
-        </Box>
-    );
+	return (
+		<Box component='header' className='header'>
+				<Link to='/' className='link'>
+					PRODUCT LIST PAGE
+				</Link>
+		</Box>
+	);
 };
