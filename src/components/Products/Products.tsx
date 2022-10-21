@@ -26,7 +26,7 @@ export const Products = () => {
 	return (
 		<Grid
 			className='products'
-			columnCount={1}
+			columnCount={3}
 			columnWidth={380}
 			
 			rowCount={1}
