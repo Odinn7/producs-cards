@@ -18,7 +18,7 @@ export const Products = () => {
 	const Cell = () => (
 		<div style={{display: 'flex', flexWrap: 'wrap', flexBasis: 1}}>
 			{
-				products.map(product => <ProductCard product={product}/>)
+				products.map(product => <ProductCard key={product.id} product={product}/>)
 			}
 		</div>
 	);
@@ -26,7 +26,7 @@ export const Products = () => {
 	return (
 		<Grid
 			className='products'
-			columnCount={3}
+			columnCount={1}
 			columnWidth={380}
 			
 			rowCount={1}
